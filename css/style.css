@@ -262,7 +262,7 @@ button:hover{
 
     }
 @media screen and (min-width: 380px){
-    .person,.name-experts{
+    .person{
         flex-direction: column;
 
     }
