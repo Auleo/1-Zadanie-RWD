@@ -61,7 +61,7 @@ a:hover{
 .wrapper{
     display:center;
     height:auto;
-    width:71%;
+    width:93%;
 }
 .landing-page{ 
     align-items:left;
@@ -126,7 +126,6 @@ button:hover{
     padding-left:11%;
 }
 .person {
-    align-self: center;
     display: flex;
     align-items: center;
     padding: 2% 7%;
@@ -158,10 +157,9 @@ button:hover{
 }
 .person:nth-of-type(odd) .info-person{
     margin-left:8px;
-    margin-top: 10%;   
 }
 .person:nth-of-type(odd) .info-person{
-    margin-top:30px;
+    margin-top:2px;
 }
 .person:nth-of-type(odd) .info-person{
     margin-right: 4px; 
@@ -254,19 +252,24 @@ button:hover{
 }   
 @media screen and (min-width: 320px){
     .top-logo {
-    padding: 11% 0%;
+    padding:11% 26%;
+    font-size: 20px;   
+    }
+}
+@media screen and (min-width: 320px){
+    .person{
+        flex-direction: column;
+
+    }
+@media screen and (min-width: 380px){
+    .person,.name-experts{
+        flex-direction: column;
 
     }
 }
 @media screen and (min-width: 380px){
-    .top-logo{
-        padding: 11% 0%;  
-        justify-content: space-between;
-    }
-}
-@media screen and (min-width: 380px){
        .top-logo {
-        padding: 11% 0%;
+        padding: 6% 11%;
             
     }
 @media screen and (min-width: 768px){
