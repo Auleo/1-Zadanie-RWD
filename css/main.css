@@ -12,7 +12,6 @@ a:link , a:visited , a:hover, a:active {
     text-decoration:none;
     color:white;
     transition: 1.04s;
-    text-transform: uppercase;
 }
 html{ scroll-behavior: smooth;}
 .nav {
