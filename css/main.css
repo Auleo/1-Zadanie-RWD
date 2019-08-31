@@ -65,6 +65,12 @@ a:hover{
     box-flex:wrap; 
     margin:auto;
 }
+.landing-page-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
 
 .landing-page-text-h1{
     display:flex;
