@@ -12,21 +12,15 @@ a:link , a:visited , a:hover, a:active {
     color:white;
     transition: 1.04s;
 }
+
 .nav{
-    height:50px; 
-    background-color: #4E4E4E; 
-}
-.nav-container{
     display: flex;
     align-items:center;
     justify-content: space-between;
     height: 50px;
     background: #4E4E4E; 
-    width: 960px;
 }
 .container{
-    padding-left:10%;
-    padding-right:10%;
     width:960px;
     margin:0 auto;
 }
