@@ -12,20 +12,6 @@ a:link , a:visited , a:hover, a:active {
     color:black;
     transition: 1.04s;
 }
-.nav {
-    height:150px;
-    display:flax;
-    justify-content: space-between;
-    align-items: center;
-    background: #4E4E4E; 
-}
-.container{
-     align-items:center;
-    justify-content: space-between;
-    width:100vh;
-    margin:0 auto;
-}
-
 .links{
     -webkit-transition-duration: 0.1s; 
     transition-duration: 0.2s;
@@ -38,6 +24,18 @@ a:hover{
     background:rgb(255, 254, 254); 
     color:black;
     display: inline;    
+}
+.nav {
+    height:50px;
+    display:flax;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+    background: #4E4E4E; 
+}
+.nav .container{
+    
+
 }
 .shedow{
     padding-left:11%; 
@@ -235,7 +233,7 @@ button:hover{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 10%;
+    padding-left:0 10%;
     align-items: center;
     height: 50%;
     width:auto;
@@ -243,26 +241,11 @@ button:hover{
     color: #fff;
 }
 
-.footer{
-    width:100vw;
-    padding: 0px 10%;
-    flex-wrap:column;
-    justify-content: space-between;
-    display:flex;
-    flex-wrap: wrap;
-    align-items:center;
-    flex-direction: row;
-    max-height:50%;
-    background:#4E4E4E; 
-    color:#fff;
-    grid-template-columns: 72% auto 15%;
-    grid-template-rows:72% auto 15%;
-    grid-gap:2%;
-}
+
 .rig{
     -webkit-flex-direction: row; 
-    grid-template-columns: 72% auto 15%;
-    grid-template-rows:72% auto 15%;
+    grid-template-columns: 70% auto 5%;
+    grid-template-rows:70% auto 5%;
     grid-gap:2%;
 }
 
