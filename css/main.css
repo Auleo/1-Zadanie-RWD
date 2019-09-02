@@ -12,12 +12,10 @@ a:link , a:visited , a:hover, a:active {
     color:black;
     transition: 1.04s;
 }
-.nav .container{
-    display: flex;
-    align-items:center;
+.nav {
+    display:flex;
     justify-content: space-between;
-    height: 50px;
-    width: 100vw;
+    align-items: center;
     background: #4E4E4E; 
 }
 .container{
@@ -75,7 +73,7 @@ a:hover{
     flex-direction:column;
     justify-content:space-between;
     align-content: center;
-    width:60%;
+    width:78%;
 }
 .landing-page-text-h1{
     display:flex;
@@ -117,6 +115,7 @@ button:hover{
     transform: 0,01s;
 }
 
+/*
 .name-experts{
     font-weight: bold;
 }
@@ -233,21 +232,42 @@ button:hover{
     grid-template-rows: 33% 33% 33%;
     grid-gap:2%;
 } 
-.footer {    
+.footer{
+    display:flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding-left: 10%;
     align-items: center;
     height: 50%;
-    width: 100%;
+    width:auto;
     background: #4E4E4E;
     color: #fff;
-}   
+}
+
+.footer{
+    padding: 0px 10%;
+    flex-wrap:column;
+    justify-content: space-between;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    grid-area:footer;
+    flex-direction: row;
+    max-height:50%;
+    background:#4E4E4E; 
+    color:#fff;
+    grid-template-columns: 72% auto 15%;
+    grid-template-rows:72% auto 15%;
+    grid-gap:2%;
+}
 .rig{
-    flex-direction:row;
-    width: 21px;
-} 
+    width: -21px;
+    -webkit-flex-direction: row; 
+    grid-template-columns: 72% auto 15%;
+    grid-template-rows:72% auto 15%;
+    grid-gap:2%;
+}
 
 
 
