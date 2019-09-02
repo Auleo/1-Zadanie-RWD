@@ -12,7 +12,7 @@ a:link , a:visited , a:hover, a:active {
     color:black;
     transition: 1.04s;
 }
-.nav .nav-container{
+.nav .container{
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -21,12 +21,13 @@ a:link , a:visited , a:hover, a:active {
     background: #4E4E4E; 
 }
 .container{
-    display:flex;
+    display: flex;
     align-items:center;
+    justify-content: space-between;
     width: 77%;
     margin:0 auto;
 }
-/*
+
 .links{
     -webkit-transition-duration: 0.1s; 
     transition-duration: 0.2s;
@@ -42,12 +43,12 @@ a:hover{
 }
 .shedow{
     padding-left:11%; 
-}/*
+}
 .wrapper{
     display:center;
     height:auto;
     width: 77%;
-} */
+}
 .container{
     width: 960px;
     margin:0 auto;
