@@ -13,16 +13,16 @@ a:link , a:visited , a:hover, a:active {
     transition: 1.04s;
 }
 .nav {
-    display:flex;
+    height:150px;
+    display:flax;
     justify-content: space-between;
     align-items: center;
     background: #4E4E4E; 
 }
 .container{
-    display: flex;
-    align-items:center;
+     align-items:center;
     justify-content: space-between;
-    width: 77%;
+    width:100vh;
     margin:0 auto;
 }
 
@@ -72,7 +72,7 @@ a:hover{
     display: flex;
     flex-direction:column;
     justify-content:space-between;
-    align-content: center;
+    align-items: flex-start;
     width:78%;
 }
 .landing-page-text-h1{
@@ -143,9 +143,7 @@ button:hover{
 }
 .name-experts{
     padding: 0 3%;
-}
-
-         
+}         
 .lorem{
     width: 98%;
     height:0 auto;
@@ -246,13 +244,13 @@ button:hover{
 }
 
 .footer{
+    width:100vw;
     padding: 0px 10%;
     flex-wrap:column;
     justify-content: space-between;
     display:flex;
     flex-wrap: wrap;
     align-items:center;
-    grid-area:footer;
     flex-direction: row;
     max-height:50%;
     background:#4E4E4E; 
@@ -262,7 +260,6 @@ button:hover{
     grid-gap:2%;
 }
 .rig{
-    width: -21px;
     -webkit-flex-direction: row; 
     grid-template-columns: 72% auto 15%;
     grid-template-rows:72% auto 15%;
