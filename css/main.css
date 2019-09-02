@@ -150,15 +150,15 @@ button:hover{
     width: 98%;
     height:0 auto;
 }
-.person:nth-of-type(even){
+.person:nth-of-type(even) {
     flex-direction: row-reverse; 
     padding-right: 5%;      
 }
 .person:nth-of-type(odd) .info-person{
     margin-left:8px;
 }
-.person:nth-of-type(odd) .info-person{
-    margin-top:2px;
+.person:nth-of-type(even) .info-person{
+    margin-top:8px;
 }
 
 #offer{
