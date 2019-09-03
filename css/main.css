@@ -11,6 +11,7 @@ a:link , a:visited , a:hover, a:active {
     text-decoration:none;
     color:white;
     transition: 1.04s;
+    scroll-behavior: smooth;
 }
 .links{
     -webkit-transition-duration: 0.1s; 
@@ -112,7 +113,7 @@ button:hover{
     color:black;
     font: bold;
     padding: 2% 8%;
-    border: 3px solid #FFFF;
+    border: 3px sol id #FFFF;
     font-size:18px;
     text-align:center;
     transform: 0,01s;
@@ -135,12 +136,11 @@ button:hover{
     align-items: center;
     padding: 2% 7%;
     margin-left: 6%;
-
 }
 .person-img{ 
     flex-shrink:0;
-    width:220px;
-    height:220px;
+    width:200px;
+    height:200px;
     background:url('https://picsum.photos/340') no-repeat center center;
     background-position: center;
     background-size:cover;
@@ -154,13 +154,15 @@ button:hover{
     height:0 auto;
 }
 .person:nth-of-type(even) {
-    flex-direction: row-reverse; 
-    padding-right: 5%;      
-}
-.person:nth-of-type(odd) .info-person{
-    margin-left:8px;
+    flex-direction: row-reverse;       
 }
 .person:nth-of-type(even) .info-person{
+    margin-left:20px;
+}
+.person:nth-of-type(odd) .person-img{
+    margin-right:20px;
+}
+.person:nth-of-type(odd) .info-person{
     margin-top:8px;
 }
 
@@ -220,10 +222,10 @@ button:hover{
     background: #F1F1F1;
     box-shadow: 3px 2px 2px 2px grey;
     transform: scale(1.00);
-  /*  grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows:33% 33% 33%;
-    grid-gap:2%; */
-
+    grid-gap:2%;
+}
 .line:hover {
     opacity:1;
     border-style: solid;
