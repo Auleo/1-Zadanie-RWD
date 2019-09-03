@@ -4,15 +4,14 @@ body{
     scroll-behavior: smooth;
     margin:0 auto;
     cursor:url(images/my-cursor.png);
-    scroll-behavior: smooth;
+
 }
 .row{ clear:both; }
 
 a:link , a:visited , a:hover, a:active { 
     text-decoration:none;
     color:white;
-    transition: 1.04s;
-    scroll-behavior: smooth;
+
 }
 .links{
     -webkit-transition-duration: 0.1s; 
@@ -45,15 +44,21 @@ a:hover{
     display:flex;
     justify-content:space-between;
     align-items: center;
- 
-}
+ }
 .shedow{
     padding-left:11%; 
 }
+#about{
+    width: 960px;
+    margin:0 auto;
+
+}
 .wrapper{
     display:center;
+    margin-top:5%;
+    width:100%;
     height:auto;
-    width: 77%;
+    width: 100%;
 }
 .landing-page{ 
     display:flex;    
@@ -78,7 +83,7 @@ a:hover{
     justify-content:space-between;
     align-items: flex-start;
     font-style: weight;
-    height:24%;
+    height:30%;
     width:65%;
 }
 .landing-page-text-h1{
@@ -105,7 +110,7 @@ button{
     font-size: 18px;
     color: white;
     font: bold;
-    padding: 10% 28%;
+    padding: 8% 34%;
     text-align: center;
     transition: 1.04s;
 }
@@ -113,28 +118,27 @@ button:hover{
     background-color:white; 
     color:black;
     font: bold;
-    padding: 10% 28%;
-    border: 3px sol id #FFFF;
+    padding: 8% 34%;
+    border: 3px solid #FFFF;
     font-size:18px;
     text-align:center;
-    transform: 0,01s;
+    transform: 1,01s;
 }
 .name-experts{
     font-weight: bold;
 }
 .top-logo{
-    margin:5%;
     width: auto;
     font-size: 36px;
-    font-weight: 800;
+    font-weight:700;
     justify-content: space-between;
 
 }
 .person {
     display: flex;
     align-items: center;
-    padding: 2% 7%;
-    margin-left: 6%;
+    margin-left:0%;
+    margin:5%;
 }
 .person-img{ 
     flex-shrink:0;
