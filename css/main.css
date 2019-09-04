@@ -168,7 +168,7 @@ button:hover{
 .person:nth-of-type(odd) .info-person{
     margin-top:8px;
 }
-
+      
 #offer{
     display:flex;
     justify-content:space-between;
