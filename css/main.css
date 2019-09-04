@@ -15,7 +15,7 @@ a:link , a:visited , a:hover, a:active {
 }
 .links{
     -webkit-transition-duration: 0.1s; 
-    transition-duration: 0.2s;
+    transition-duration: 1.2s;
     display:fixed;
     height:auto;
     background: #4E4E4E; 
@@ -61,6 +61,7 @@ a:hover{
     width: 100%;
 }
 .landing-page{ 
+    height: calc(100vh - 50px);
     display:flex;    
     height:100vh;
     background:url(https://picsum.photos/id/307/1920/1080);     
@@ -180,7 +181,6 @@ button:hover{
 }
 
 .company-what{
-
     width:100%;
     font-size: 36px;
     font-weight: 700;
@@ -212,6 +212,8 @@ button:hover{
     z-index:3;
 }
 .line{
+    display: flex;
+    align-items:center;
     width: 191px;
     height: 180px;
     margin: 4% 4%;
@@ -223,17 +225,17 @@ button:hover{
     border: 2px solid grey;
     color:grey;
     padding-left:11px;
-    padding-right:11px;
+    padding-right:11px;    
     background:#405D78;
     background: #F1F1F1;
     box-shadow: 3px 2px 2px 2px grey;
     transform: scale(1.00);
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows:33% 33% 33%;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows:32% 32% 32%;
     grid-gap:2%;
 }
 .line:hover {
-    opacity:1;
+    opacity:3;
     border-style: solid;
     -moz-transfor:scale(1.05);
     -webkit-transform:scale(1.05);
@@ -241,8 +243,8 @@ button:hover{
     -ms-transform:scale(1.05);
     -webkit-transform:scale(1.05);
     transform:scale(1.05);
-    grid-template-columns:33% 33% 33%;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows:32% 32% 32%;
     grid-gap:2%;
 } 
 .footer{
@@ -257,17 +259,12 @@ button:hover{
     background: #4E4E4E;
     color: #fff;
 }
-
-
 .rig{
     -webkit-flex-direction: row; 
     grid-template-columns: 70% auto 5%;
     grid-template-rows:70% auto 5%;
     grid-gap:2%;
 }
-
-
-
 
 /*   
 @media screen and (min-width: 320px){
