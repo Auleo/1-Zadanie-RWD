@@ -173,11 +173,12 @@ button:hover{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    width:55%;
+    width:100%;
     height: 100vh;
     margin:0 auto;
     background-color:  #405D78;
 }
+
 .company-what{
     width:100vw;
     font-size: 36px;
