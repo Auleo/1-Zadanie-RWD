@@ -180,24 +180,24 @@ button:hover{
 }
 
 .company-what{
-    width:100vw;
+
+    width:100%;
     font-size: 36px;
     font-weight: 700;
     justify-content: space-between;
     color: #F1F1F1;
 } 
-.box-container{
-    display: flex;
-    justify-content: center;
-    flex-direction:row;
-    text-align: center;
-    grid:flex;   
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows:33% 33% 33%;
-    grid-gap:2%
+.box-container .container{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows:auto;
+    grid-column-gap: 1%;
+    grid-row-gap:2%;
+    width:100%;
 }
 .box_second-line{
-    width:100vw;
+    align-content: center;
+    width:68%;
     height:100vh;
     margin-bottom:0px;
 }
