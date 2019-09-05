@@ -4,18 +4,18 @@ body{
     scroll-behavior: smooth;
     margin:0 auto;
     cursor:url(images/my-cursor.png);
-
 }
 .row{ clear:both; }
 
 a:link , a:visited , a:hover, a:active { 
     text-decoration:none;
     color:white;
-
+    transition: 1.09s;
+    scroll-behavior: smooth;
 }
 .links{
     -webkit-transition-duration: 0.1s; 
-    transition-duration: 1.2s;
+    transition-duration: 0.2s;
     display:fixed;
     height:auto;
     background: #4E4E4E; 
@@ -44,24 +44,17 @@ a:hover{
     display:flex;
     justify-content:space-between;
     align-items: center;
- }
+ 
+}
 .shedow{
     padding-left:11%; 
 }
-#about{
-    width: 960px;
-    margin:0 auto;
-
-}
 .wrapper{
     display:center;
-    margin-top:5%;
-    width:100%;
     height:auto;
-    width: 100%;
+    width: 77%;
 }
 .landing-page{ 
-    height: calc(100vh - 50px);
     display:flex;    
     height:100vh;
     background:url(https://picsum.photos/id/307/1920/1080);     
@@ -84,8 +77,8 @@ a:hover{
     justify-content:space-between;
     align-items: flex-start;
     font-style: weight;
-    height:30%;
-    width:65%;
+    width:53%;
+    height:22%;
 }
 .landing-page-text-h1{
     display:flex;
@@ -111,7 +104,7 @@ button{
     font-size: 18px;
     color: white;
     font: bold;
-    padding: 8% 34%;
+    padding: 6% 34%;
     text-align: center;
     transition: 1.04s;
 }
@@ -119,27 +112,30 @@ button:hover{
     background-color:white; 
     color:black;
     font: bold;
-    padding: 8% 34%;
-    border: 3px solid #FFFF;
+    padding: 6% 34%;
+    border: 3px sol id #FFFF;
     font-size:18px;
     text-align:center;
-    transform: 1,01s;
+    transform: 0,01s;
 }
+
+
 .name-experts{
     font-weight: bold;
 }
 .top-logo{
+    margin:5%;
     width: auto;
     font-size: 36px;
-    font-weight:700;
+    font-weight: 800;
     justify-content: space-between;
 
 }
 .person {
     display: flex;
     align-items: center;
-    margin-left:0%;
-    margin:5%;
+    padding: 2% 7%;
+    margin-left: 6%;
 }
 .person-img{ 
     flex-shrink:0;
@@ -169,38 +165,21 @@ button:hover{
 .person:nth-of-type(odd) .info-person{
     margin-top:8px;
 }
-      
+
 #offer{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    width:100%;
+    width:55%;
     height: 100vh;
     margin:0 auto;
     background-color:  #405D78;
 }
-
 .company-what{
-    width:100%;
-    font-size: 36px;
-    font-weight: 700;
-    justify-content: space-between;
+    padding-top:5%;
+    padding-left:11%;
     color: #F1F1F1;
 } 
-.box-container .container{
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    grid-template-rows:auto;
-    grid-column-gap: 1%;
-    grid-row-gap:2%;
-    width:100%;
-}
-.box_second-line{
-    align-content: center;
-    width:68%;
-    height:100vh;
-    margin-bottom:0px;
-}
 .circle{
     position:absolute;
     width:20px;
@@ -211,9 +190,22 @@ button:hover{
     border-radius:50%;
     z-index:3;
 }
-.line{
+.box-container{
     display: flex;
-    align-items:center;
+    justify-content: center;
+    flex-direction:row;
+    text-align: center;
+    grid:flex;   
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows:33% 33% 33%;
+    grid-gap:2%
+}
+.box_second-line{
+    width:100vw;
+    height:100vh;
+    margin-bottom:0px;
+}
+.line{
     width: 191px;
     height: 180px;
     margin: 4% 4%;
@@ -225,17 +217,17 @@ button:hover{
     border: 2px solid grey;
     color:grey;
     padding-left:11px;
-    padding-right:11px;    
+    padding-right:11px;
     background:#405D78;
     background: #F1F1F1;
     box-shadow: 3px 2px 2px 2px grey;
     transform: scale(1.00);
-    grid-template-columns: 32% 32% 32%;
-    grid-template-rows:32% 32% 32%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows:33% 33% 33%;
     grid-gap:2%;
 }
 .line:hover {
-    opacity:3;
+    opacity:1;
     border-style: solid;
     -moz-transfor:scale(1.05);
     -webkit-transform:scale(1.05);
@@ -243,8 +235,8 @@ button:hover{
     -ms-transform:scale(1.05);
     -webkit-transform:scale(1.05);
     transform:scale(1.05);
-    grid-template-columns: 32% 32% 32%;
-    grid-template-rows:32% 32% 32%;
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
     grid-gap:2%;
 } 
 .footer{
@@ -259,12 +251,17 @@ button:hover{
     background: #4E4E4E;
     color: #fff;
 }
+
+
 .rig{
     -webkit-flex-direction: row; 
     grid-template-columns: 70% auto 5%;
     grid-template-rows:70% auto 5%;
     grid-gap:2%;
 }
+
+
+
 
 /*   
 @media screen and (min-width: 320px){

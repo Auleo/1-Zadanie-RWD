@@ -509,6 +509,99 @@ ox_first_line{
     grid-template-rows: 33% 33% 33%;
     grid-gap:2%;
 }
+
+
+function request( url, callback) {
+ let xhr = new XMLHttpRequest();
+
+xhr.open("GET", url, true);
+
+xhr.addEventList('load', function () {
+if this.status === 200) {
+let res =JSON.parse(this.responseText);
+
+if(typeof callback !== 'undefined') {
+callback(res [0].capital);
+}
+}
+]);
+
+
+
+2
+
+async Function test() {
+	try {
+	const res = await fetch("mój fetch " );
+	const res2 = await fetch(adres");
+eyeołuje asynchronicznie
+	callback(res);
+	} catch (e) {
+         console.log(e);
+		funkcja(e) ; 
+	}
+}
+test();
+
+try {
+let res =JSON.pars(new Data());
+
+} catch( e ) {
+
+}
+
+
+
+
+try {  /// może przechwycić wyjątek . 
+  let res = eval ("function () { consol.log(111):  }" );
+} catch(e ) {
+
+}
+
+
+  const newElement = document.createElement('li');
+  newElement.id = 'todo-' + (++lastId);
+
+  const delButton = document.createElement('button');
+  delButton.innerTekst = title;
+  
+  const titleElement = document.createElement('span');
+  titleElement.innerText = title;
+
+  const delButton = document.createElement('button');
+  delButton.innerText = 'delete';
+return newElement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
     
     padding: 0px 10%;
